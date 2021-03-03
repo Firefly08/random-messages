@@ -1,39 +1,41 @@
-a { -webkit-border-radius: 20px;
+body {
+  max-width: 960px;
+  margin: auto;
+}
+button { -webkit-border-radius: 20px;
  -moz-border-radius: 20px;
  border-radius: 20px;
- height: 41px;
- line-height: 41px;
  color: #FFFFFF;
  font-family: Tahoma;
- width: 271px;
- font-size: 54px;
- font-weight: 200;
- padding: 38px;
+ font-size: 30px;
+ font-weight: 800;
+ padding: 20px;
  background-color: #F63D7A;
  -webkit-box-shadow: 1px 1px 20px 0 #000000;
  -moz-box-shadow: 1px 1px 20px 0 #000000;
  box-shadow: 1px 1px 20px 0 #000000;
  text-shadow: 1px 1px 20px #000000;
  border: solid #0059A0 1px;
- text-decoration: none;
- display: inline-block;
  cursor: pointer;
- text-align: center;
 
 }
 .mainText {
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
 }
 .food {
   width: 10%;
 }
 p {
-  padding: 40px;
+  padding: 20px;
   font-size: 30px;
 }
 .btn {
-  position: absolute;
-  left: 790px;
+  position: relative;
+  width: 100%;
+  left: 41%;
   margin-top: 40px;
+}
+#order {
+  text-align: center;
 }
